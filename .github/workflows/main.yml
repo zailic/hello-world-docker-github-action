@@ -6,7 +6,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: zailic/hello-world-docker-github-action@v1
+        uses: zailic/hello-world-docker-github-action
         with:
           who-to-greet: 'Ionut'
       - name: Get the output time
